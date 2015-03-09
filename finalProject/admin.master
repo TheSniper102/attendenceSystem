@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>admin panel</title>
+    <link href="finalProject/css/reset.css" rel="stylesheet" />
+    <link href="finalProject/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="finalProject/css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="finalProject/css/jquery-ui.theme.min.css" rel="stylesheet" />
+    <link href="finalProject/css/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="finalProject/css/admin.css" rel="stylesheet" />
+    <script src="js/jqSource/jquery-1.11.2.min.js"></script>
+    
+    <script src="js/jqSource/jquery-ui.min.js"></script>
+    <script src="js/master.js"></script>
+    <script src="js/admin.js"></script>
+</head>
+<body>
+   
+        <div class="header non-printable">
+            <span class="title"> <a href="index.aspx">Admin panel</a></span>
+            <span class="content">
+                <a class="fa-align-justify toogle"></a>
+            </span>
+        </div><!-- end header -->
+
+        <div class="navbar non-printable">
+            <div class="userPro">
+             test
+            </div><!-- end user profile-->
+                <ul>
+                    <li class="Menu-title">Choose Action</li>
+                    
+                      <li><a href="index.aspx"><span class="fa-area-chart"></span> Statistics</a>  </li>
+                    <li><a href="Default.aspx"><span class="fa-bell"></span>Attend/Leave Page</a>  </li>
+                    <li><a href="vactions.aspx"><span class="fa-automobile"></span> Add Vaction</a>  </li>
+                    <li><a href="#" class="TreeMenu"><span class="fa-area-chart"></span> Show Reports</a>  
+                        <ul class="subMenu">
+                            <li><a href="Absences.aspx">Absences</a></li>
+                            <li><a href="DepartmentReport.aspx">DepartmentReport</a></li>
+                            <li><a href="DeptRangeReport.aspx">DeptRangeReport</a></li>
+                            <li><a href="EmployeeReport.aspx">EmployeeReport</a></li>
+                            <li><a href="ShowAttendance.aspx">ShowAttendance</a></li>
+                           
+                            <li></li>
+                        </ul><!-- end submenu -->
+                    </li><!-- end Tree menu -->
+                    <li><a href="AddnewEmp.aspx"><span class="fa-group"></span> Add Employee</a>  </li>
+                    <li><a href="addnewDept.aspx"><span class="fa-database"></span>    Add Department</a>  </li>
+                     <li><a href="restore.aspx"><span class="fa-cloud-upload"></span> Restore</a></li>
+                     <li><a href="backup.aspx"><span class="fa-cloud-download"></span> Backup</a></li>
+                </ul><!-- end main menu -->
+           
+        </div><!--end navbar -->
+        <div class="wrapper">
+            <div class="ui-widget" id="messageHolder"> 
+           </div><!-- end message holder -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div><!-- end content -->
+
+  
+</body>
+</html>

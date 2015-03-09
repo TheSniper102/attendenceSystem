@@ -1,0 +1,154 @@
+<Attendance>
+  <Date today="2015-01-17">
+    <Emp id="1">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="2">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="3">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="4">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-01-18">
+    <Emp id="1">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="2">
+      <Attend>09:00</Attend>
+      <Leave>04:00</Leave>
+    </Emp>
+    <Emp id="3">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="4">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-01-19">
+    <Emp id="1">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="2">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="3">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="4">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-01-20">
+    <Emp id="1">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="2">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="3">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="4">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-02">
+    <Emp id="1">
+      <Attend>09:10</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="2">
+      <Attend>09:00</Attend>
+      <Leave>16:00</Leave>
+    </Emp>
+    <Emp id="3">
+      <Attend>09:10</Attend>
+      <Leave>null</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-03">
+    <Emp id="2">
+      <Attend>17:51</Attend>
+      <Leave>17:51</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-06">
+    <Emp id="1">
+      <Attend>14:28</Attend>
+      <Leave>null</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-07">
+    <Emp id="1">
+      <Attend>19:45</Attend>
+      <Leave>19:46</Leave>
+    </Emp>
+    <Emp id="8">
+      <Attend>13:00</Attend>
+      <Leave>null</Leave>
+    </Emp>
+    <Emp id="7">
+      <Attend>13:00</Attend>
+      <Leave>null</Leave>
+    </Emp>
+    <Emp id="5">
+      <Attend>13:00</Attend>
+      <Leave>null</Leave>
+    </Emp>
+    <Emp id="6">
+      <Attend>13:26</Attend>
+      <Leave>null</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-24">
+    <Emp id="1">
+      <Attend>09:43</Attend>
+      <Leave>null</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-25">
+    <Emp id="2">
+      <Attend>22:26</Attend>
+      <Leave>null</Leave>
+    </Emp>
+    <Emp id="4">
+      <Attend>22:27</Attend>
+      <Leave>null</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-26">
+    <Emp id="4">
+      <Attend>07:18</Attend>
+      <Leave>null</Leave>
+    </Emp>
+    <Emp id="3">
+      <Attend>07:19</Attend>
+      <Leave>07:19</Leave>
+    </Emp>
+  </Date>
+  <Date today="2015-02-27">
+    <Emp id="13">
+      <Attend>11:31</Attend>
+      <Leave>11:31</Leave>
+    </Emp>
+  </Date>
+</Attendance>

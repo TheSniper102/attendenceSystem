@@ -1,0 +1,168 @@
+﻿label, input {
+    display: block;
+}
+
+    input.text {
+        margin-bottom: 12px;
+        width: 95%;
+        padding: .4em;
+    }
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin: .6em 0;
+}
+
+div#users-contain {
+    width: 350px;
+    margin: 20px 0;
+}
+
+    div#users-contain table {
+        margin: 1em 0;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        div#users-contain table td, div#users-contain table th {
+            border: 1px solid #eee;
+            padding: .6em 10px;
+            text-align: left;
+        }
+
+.ui-dialog .ui-state-error {
+    padding: .3em;
+}
+
+
+/* show emplyee attendece*/
+div.ui-datepicker {
+    font-size: 10px;
+}
+
+.late {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.data-container, #statistic_container table {
+    width: 100%;
+    max-width: 600px;
+    height: 176px;
+    border-collapse: collapse;
+    border: 1px solid #38678f;
+    margin: 50px auto;
+    background: white;
+}
+
+/*tr:first {
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+}*/
+
+.data-container th, #statistic_container table th {
+    background: none repeat scroll 0 0 #293169;
+    border: 1px solid #38678f;
+    box-shadow: 0 1px 2px #568ebd inset;
+    color: white;
+    font-weight: lighter;
+    height: 42px;
+    text-shadow: 0 1px 0 #38678f;
+    transition: all 0.2s ease 0s;
+    width: 12%;
+}
+
+.data-container tr td, #statistic_container table tr td {
+    font-size: 14px;
+    padding: 1px;
+    text-align: center;
+}
+
+.data-container tr:nth-child(odd), #statistic_container table tr:nth-child(odd) {
+    background-color: #EAF3F3;
+}
+
+
+.from-container {
+    margin: 0 auto;
+    padding: 5px;
+    width: 50% !important;
+    margin-bottom: 20px;
+}
+
+#insert_btn, .btn {
+    background-color: #293169;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    width: 240px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    top: 5px;
+    left: 287px;
+}
+
+input#saveBtn {
+    display: block;
+    margin: 30px auto;
+}
+
+.inptError {
+    border: 1px solid red;
+    color: red;
+}
+
+@media print {
+    .non-printable, #create-user .ui-button-text {
+        display: none;
+    }
+
+    .printable {
+        display: block;
+    }
+}
+
+.xsl_btn {
+    background-color: transparent;
+    background-image: url("images/xsl.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    right: 188px;
+    top: 222px;
+    width: 32px;
+}
+
+.print_btn {
+    background-color: transparent;
+    background-image: url("images/print.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    right: 233px;
+    top: 222px;
+    width: 32px;
+}
+#users-contain{
+      margin: 168px auto !important;
+      width:68% !important;
+      text-align: center;
+}
+#atShow, #empUpload, #deptUpload
+{
+    display:none;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:simpleType name="timeValueType">
+		<xs:restriction base="xs:token">
+			<xs:pattern value="\d{2}:\d{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="null">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="null"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="time">
+		<xs:union memberTypes="timeValueType null"/>
+	</xs:simpleType>
+	
+	<xs:attribute name="today" type="xs:date" />
+	<xs:attribute name="id" type="xs:positiveInteger"/>
+	<xs:group name="attendLeave">
+		<xs:sequence>
+			<xs:element name="Attend" type="time"/>
+			<xs:element name="Leave" type="time"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="empdetails">
+			<xs:group ref="attendLeave"/>
+			<xs:attribute ref="id" use="required"/>
+		</xs:complexType>
+		
+	<xs:complexType name="employees">
+		<xs:sequence>
+			<xs:element name="Emp" maxOccurs="unbounded" type="empdetails"/>
+		</xs:sequence>
+		<xs:attribute ref="today" use="required"/>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="dates" >
+			<xs:sequence>
+				<xs:element name="Date" minOccurs="0" maxOccurs="unbounded" type="employees"/>
+			</xs:sequence>
+		</xs:complexType>
+	
+	
+	<xs:element name="Attendance" type="dates"/>
+</xs:schema>
+
